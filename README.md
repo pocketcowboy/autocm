@@ -6,6 +6,18 @@ Generates commit messages based on git diffs using the Gemini API.
 
 * Requires a Gemini API key, see https://ai.google.dev/gemini-api/docs/api-key 
 
+## Installation
+
+```bash
+go install github.com/pocketcowboy/autocm@latest
+```
+
+Make sure that your Go bin directory is in your system's PATH. The Go bin directory is typically located at `$HOME/go/bin`. You can add it to your PATH by adding the following line to your shell's configuration file (e.g., `~/.bashrc`, `~/.zshrc`):
+
+```bash
+export PATH=$PATH:$HOME/go/bin
+```
+
 ## Usage
 
 **Set your Gemini API key as an environment variable:**
