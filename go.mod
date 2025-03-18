@@ -1,4 +1,4 @@
-module autocm
+module github.com/pocketcowboy/autocm
 
 go 1.24.1
 
